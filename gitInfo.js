@@ -21,6 +21,8 @@ let gitDefinition = "Git is a version control tool which uses snapshots of code 
 
 //CODE HERE
 
+let gitHubDefinition = "GitHub is a websites used to store cloud-based saves of local Git save states. This website can be used to upload and access Git files from the web."
+
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
