@@ -43,3 +43,7 @@ if (faveNum === 13) {
 */
 
 //CODE HERE
+
+for (let i = 1; i < 6; i++) {
+  console.log(faveNum);
+}
