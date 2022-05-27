@@ -4,6 +4,7 @@
 //CODE HERE 
 
 const myName = "Zack";
+console.log(myName);
 
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
@@ -11,6 +12,7 @@ const myName = "Zack";
 //CODE HERE
 
 let faveNum = "5";
+console.log(faveNum);
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
@@ -18,6 +20,7 @@ let faveNum = "5";
 //CODE HERE
 
 let lovesCode = true;
+console.log(lovesCode);
 
 //////////////////PROBLEM 4////////////////////
 /*
