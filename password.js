@@ -22,34 +22,33 @@ reader.question("Please enter a password to validate:", function (input) {
     let passwordCharacter = false;
     let charArr = ['!', '@', '#', '$', '%', '^', '&', '*']
 
-    for (i = 0; i <= password.length; i++){
-        if(password.includes("!")){
+    for (i = 0; i <= password.length; i++) {
+        if (password.includes("!")) {
             passwordCharacter = true;
-        } else if (password.includes("@")){
+        } else if (password.includes("@")) {
             passwordCharacter = true;
-        } else if (password.includes("#")){
+        } else if (password.includes("#")) {
             passwordCharacter = true;
-        } else if (password.includes("$")){
+        } else if (password.includes("$")) {
             passwordCharacter = true;
-        } else if (password.includes("%")){
+        } else if (password.includes("%")) {
             passwordCharacter = true;
-        } else if (password.includes("^")){
+        } else if (password.includes("^")) {
             passwordCharacter = true;
-        } else if (password.includes("&")){
+        } else if (password.includes("&")) {
             passwordCharacter = true;
-        } else if (password.includes("*")){
+        } else if (password.includes("*")) {
             passwordCharacter = true;
         } else {
             passwordCharacter = false;
-            console.log(passwordCharacter)
         }
     }
 
 
     if (password.length >= passMinLength && /[a-z]/.test(password) && /[A-Z]/.test(password) && /[0-9]/.test(password) && passwordCharacter === true) {
-        console.log("Success: password valiated.");
+        console.log("----------------------", "Success: password valiated.");
     } else {
-        console.log("Failed: does not meet minimum requirements. Please review requirements.");
+        console.log("----------------------", "Failed: does not meet minimum requirements. Please review requirements.");
     }
 
     reader.close();
