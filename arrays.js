@@ -28,6 +28,8 @@ const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
 
+let middleNums = numbers.splice(1, 3);
+// console.log("middle nums array", middleNums);
 
 //////////////////PROBLEM 4////////////////////
 /* 
