@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = "Git is a version control tool which uses snapshots of code to save certain states of a project.";
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
