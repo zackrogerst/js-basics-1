@@ -5,7 +5,7 @@ const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
 
-let colorCopy = faveColors.slice(0,3);
+let colorCopy = faveColors.slice(0, 3);
 // console.log(colorCopy);
 
 //////////////////PROBLEM 2////////////////////
@@ -45,3 +45,22 @@ let middleNums = numbers.splice(1, 3);
 */
 
 // CODE HERE
+
+
+
+let arr = [159, 195, 29, 198, 32, 8, 101, 100];
+
+function bigOrSmall(arr) {
+  let answers = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > 100) {
+      answers.push("Big");
+    } else {
+      answers.push("Small");
+    }
+  }
+  return answers;
+}
+
+let funcHandler = bigOrSmall(arr);
+console.log(`arr as "Big" or "Small"`, funcHandler);
